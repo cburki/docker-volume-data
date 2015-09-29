@@ -4,4 +4,4 @@ MAINTAINER Christophe Burki, christophe.burki@gmail.com
 RUN mkdir -p /data
 VOLUME ["/data"]
 
-CMD ["/usr/bin/tail", "-f", "/dev/null"]
+CMD ["/bin/tail", "-f", "/dev/null"]
