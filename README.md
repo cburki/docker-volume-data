@@ -29,6 +29,6 @@ Or, you can keep the container image running by placing a service running in the
     docker run \
         --name volume-data \
         -d cburki/volume-data \
-        /usr/bin/tail -f /dev/null
+        /bin/tail -f /dev/null
 
-The default command defined in the image is /usr/bin/tail -d /dev/null. So you could simply run the image without specifying the command.
+The default command defined in the image is /bin/tail -d /dev/null. So you could simply run the image without specifying the command.
