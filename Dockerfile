@@ -7,4 +7,4 @@ RUN chmod a+x /usr/local/bin/waitsig
 RUN mkdir -p /data
 VOLUME ["/data"]
 
-CMD [/usr/local/bin/waitsig"]
+CMD ["/usr/local/bin/waitsig"]
